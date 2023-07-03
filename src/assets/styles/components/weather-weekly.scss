@@ -1,0 +1,39 @@
+.container-weekly {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 50px;
+  padding: 15px;
+
+  .title-weekly {
+      font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      
+        // Застосовуємо тінь до заголовку
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      
+        // Застосовуємо градієнтний фон до заголовку
+        background: linear-gradient(to right, #ff5f6d, #ffc371);
+      
+        // Додаємо падінги до заголовку
+        padding: 10px 20px;
+      
+        // Додаємо округлені кути до заголовку
+        border-radius: 8px;
+      
+        // Застосовуємо анімацію при наведенні
+        transition: background 0.3s ease;
+      
+        // Застосовуємо стилі при наведенні
+        &:hover {
+          background: linear-gradient(to right, #ff9966, #ff5e62);
+          cursor: pointer;
+        }
+  }
+}

@@ -1,0 +1,36 @@
+.container-current {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-grow: 1;
+  margin-top: 60px;
+  padding: 15px;
+
+  .title-current {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(to right, #ff9966, #ff5e62);
+      cursor: pointer;
+    }
+  }
+}
+
+.section-current {
+  height: 100%;
+  padding-top: 5px;
+  background-color: rgba(5, 4, 2, 0.5);
+}
