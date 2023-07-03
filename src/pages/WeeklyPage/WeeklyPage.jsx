@@ -158,7 +158,7 @@ function WeeklyPage() {
         ) : (
           <div>
             {state.current.country !== undefined ? (
-              <div className="weather">
+              <div>
                 <WeatherWeekly weekly={state.weekInfo} />
               </div>
             ) : state.error ? (

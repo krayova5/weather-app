@@ -5,12 +5,10 @@ import { Routes, Route } from "react-router-dom";
 import CurrentPage from "./CurrentPage";
 import WeeklyPage from "./WeeklyPage";
 
-
-
 const Router = () => (
   <Routes>
-    <Route path="/" element={<CurrentPage/>} />
-    <Route path="/weekly" element={<WeeklyPage/>} />
+    <Route path="/" element={<CurrentPage />} />
+    <Route path="/weekly" element={<WeeklyPage />} />
   </Routes>
 );
 
